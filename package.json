@@ -1,0 +1,19 @@
+{
+  "name": "sem_auto",
+  "version": "1.0.0",
+  "description": "hunlimao sem page workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huogiafei/semAuto.git"
+  },
+  "author": "huogiafei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huogiafei/semAuto/issues"
+  },
+  "homepage": "https://github.com/huogiafei/semAuto#readme"
+}
