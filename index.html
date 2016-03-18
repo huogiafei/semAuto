@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <title>semAuto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, shrink-to-fit=no ,maximum-scale=1.0, user-scalable=no"/>
+    <style>
+        body{
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+        }
+
+        .img-section{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .img{
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+
+</div>
+<script type="text/html" id="imgWrapper">
+    {{each list as item i}}
+    <p class="img-section">
+        <img class="img lazy" data-src-retina="{{item.img}}" alt="">
+    </p>
+    {{/each}}
+</script>
+</body>
+<script src="bower_components/artTemplate/dist/template.js"></script>
+<script src="bower_components/zepto/zepto.min.js"></script>
+<script src="bower_components/jquery-unveil/jquery.unveil.min.js"></script>
+<script src="js/index.js"></script>
+</html>
